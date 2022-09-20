@@ -1,0 +1,71 @@
+* {
+box-sizing: border-box;
+font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-image: url("immagini/background.jpg");
+  background-size: cover;
+}
+
+.quadrato {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 250px;
+  margin-top: 80px;
+}
+header {
+  width: 100%;
+  text-align: center;
+}
+header > h1 {
+  color: rgb(0, 255, 0);
+}
+
+nav div {
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+}
+
+main {
+  margin-left: 100px;
+  color: white;
+}
+main h2 {
+  display: inline-block;
+  margin-bottom: auto;
+}
+
+.distanza:before {
+  content: "\21A6"
+}
+
+#Batteria1 {
+  width: 350px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(255,165,0);
+}
+
+#Batteria2 {
+  width: 650px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(10,255,10);
+}
+#Batteria3 {
+  width: 150px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(255,100,100);
+}
